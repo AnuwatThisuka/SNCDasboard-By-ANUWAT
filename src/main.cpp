@@ -59,11 +59,11 @@ void setup() {
   pinMode(inputcount, INPUT);
   Blynk.begin(auth, "ssid", "pass");
   pinMode(2,OUTPUT);
-  pinMode(4,OUTPUT;)
+  pinMode(4,OUTPUT);
   pinMode(15,OUTPUT);
   digitalWrite(2,HIGH);
   digitalWrite(15,LOW);
-  digitalWrite(4,HIGH;)
+  digitalWrite(4,HIGH);
 int value = 0;
 //Fuction สถานะการทำงานของเครื่อง
 void OnMachine1()
